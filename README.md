@@ -8,6 +8,9 @@ When placing vblade on one Docker host and the AoE initiator is on a different D
 
 sudo docker run -i -t --net=host symlogix/vblade /bin/bash
 
+******* Please note that there are two dashes before net=host *******
+
+
 Additional details to follow.
 
 Questions? Contact us: https://www.symlogix.com/contact/
