@@ -16,15 +16,19 @@ sudo docker run -i -t --net=host symlogix/vblade bash
 |Quick start on a running vblade container|
 
 1) Create a raw image file (for this example - 10GB)
-      mkdir /test
-      dd if=/dev/zero of=/test/raw_image.raw bs=1M count=10000
+
+mkdir /test
+
+dd if=/dev/zero of=/test/raw_image.raw bs=1M count=10000
   
 2) Run vblade process (for example with settings for shelf #2, slot #1)
-      vblade 2 1 eth0 /test/raw_image.raw
+
+vblade 2 1 eth0 /test/raw_image.raw
       
 3) vblade process will continue to operate until you press <CTRL> + <C>
 
-4) Use the AoE initiator container to connect to the vblade exported raw image file. See: https://registry.hub.docker.com/u/symlogix/aoe_initiator/
+4) Use the AoE initiator container to connect to the vblade exported raw image file. 
+See: https://registry.hub.docker.com/u/symlogix/aoe_initiator/
 
 
 |Limitations|
@@ -40,8 +44,10 @@ a) vblade-persist is installed but appears to be malfunctioning within this buil
 Questions? Contact us: https://www.symlogix.com/contact/
 
 
-Related links:
+|Related links|
 
 https://www.symlogix.com/products/storage/coraid/
+
 https://en.wikipedia.org/wiki/ATA_over_Ethernet
+
 http://support.coraid.com/documents/AoEr11.txt
