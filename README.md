@@ -1,6 +1,6 @@
 Ubuntu 14.04.1 LTS with vblade. Block level Storage Area Network (SAN) based on the ATA over Ethernet (AoE) protocol.
 
-This build of the container is suitable for demos, testing, evaluation, proof-of-concepts and training. vblade is designed to provide a free AoE SAN target in software. Hardware AoE SAN equipment and appliances with greater performance, scalability and feature sets than vblade can be purchased from Coraid resellers like us.
+This build of the container is suitable for demos, testing, evaluation, proof-of-concept and training. vblade is designed to provide a free AoE SAN target in software. Hardware AoE SAN equipment and appliances with greater performance, scalability and feature sets than vblade can be purchased from Coraid resellers like us.
 
 To run the vblade container on the same physical Docker host with the AoE initiator container, use the following:
 
